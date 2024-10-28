@@ -22,15 +22,15 @@
 </head>
 <body>
 
-  <section id="homedesigne" class="s-homedesigne">
-    <p class="lead">Bienvenue dans l'espace de YayeFallDevAuthentique !</p>
-  </section>
 <div class="container" style="width:50%;">
-        <h2>Archivage de Fichiers</h2>
+
+<section id="homedesigne" class="s-homedesigne">
+    <p class="lead">Archivage de Fichiers !</p>
+  </section>
         <form action="archive.php" method="post" enctype="multipart/form-data">
             <label for="files">Choisissez les fichiers à archiver :</label><br><br>
-            <input type="file" name="files[]" multiple required><br><br>
-            <button type="submit" class="btn" style="background-color: green; color:aliceblue">Créer Archive ZIP</button>
+            <input type="file" name="files[]" multiple required  class="form-control" ><br><br>
+            <button type="submit" class="btn btn-long form-control" style="background-color: green; color:aliceblue">Créer Archive ZIP</button>
         </form>
     </div>
 </body>
